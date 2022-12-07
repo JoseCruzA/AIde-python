@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hola", "¿Cómo estás?", "¿Cómo te va?", "¿Cómo estás hoy?", "¿Cómo te va hoy?", "Buenos días", "Buenas tardes", "Buenas noches", "¿Qué tal?", "¿Qué tal estás?", "¿Qué tal te va?"],
+            "responses": ["Hola, mi nombre es AIde, ¿Con quién tengo el gusto de hablar?"]
+        },
+        {
+            "tag": "where_are",
+            "patterns": ["¿Se encuenta {}?", "¿Está {}?"],
+            "responses": ["El señor {} no te puede atender en este momento pero si gustas yo puedo darle tu mensaje"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Adiós", "Hasta luego", "Chao", "Feliz día", "Hasta mañana", "Hasta pronto", "Hasta la vista", "Hasta la próxima", "Nos vemos", "Hasta otra", "Hasta otra vez"],
+            "responses": ["Hasta luego, que tengas un buen día"]
+        }
+    ]
+}
